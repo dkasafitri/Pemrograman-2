@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.artivisi.project.HelloWorldTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec <<< FAILURE!
+testAritmatic(com.artivisi.project.HelloWorldTest)  Time elapsed: 0.01 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<13> but was:<15>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:201)
+	at junit.framework.Assert.assertEquals(Assert.java:207)
+	at com.artivisi.project.HelloWorldTest.testAritmatic(HelloWorldTest.java:26)
+
